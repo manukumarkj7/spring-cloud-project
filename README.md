@@ -6,7 +6,7 @@ request coming from zuul api gateway that  is redirecting to feign client which
 
 Both the currency conversion and forex services which is registered in eureka server, It helps to  find the forex service through currency conversion
 
-currency conversion calls the forex service to find the currency conversion and add the quantity to the conversion value.finally send the response 
+currency conversion calls the forex service to find the currency conversion and multiply the quantity to the conversion value.finally send the response 
 
 application built  as maven project  
 
